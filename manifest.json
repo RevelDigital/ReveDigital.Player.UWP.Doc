@@ -852,7 +852,7 @@
           "hash": "YWOPQLIk40fhJPf48QZT1g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "uFpmxi50O3ysjIxhNLEoWQ=="
+          "hash": "OSY4UwxLxiFA/Zs+2yGdnw=="
         }
       },
       "is_incremental": true,
