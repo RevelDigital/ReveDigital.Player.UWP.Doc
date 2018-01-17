@@ -1,0 +1,956 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Mike/Documents/Visual Studio 2017/Projects/RevelDigital.Player/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.AnalogClockControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.AnalogClockControl.html",
+          "hash": "sQZHlLFbmuGctnjlSYAJ7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.CarouselControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.CarouselControl.html",
+          "hash": "dkzfta2ozo9UE6DJnBg1xw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.DigitalClockControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.DigitalClockControl.html",
+          "hash": "lvUBknBqfFEvOtP/lCKFqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.GadgetControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.GadgetControl.html",
+          "hash": "BCCwLJw19S5iI6ClzsowXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.GalleryControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.GalleryControl.html",
+          "hash": "YLASe5TQvgTkcih6o6AWqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.HotSpotControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.HotSpotControl.html",
+          "hash": "kY71SjU/lmCHDMS/KXBU6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.ImageControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.ImageControl.html",
+          "hash": "1lSUaGNnyhYkIPdfycnesw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.MarqueeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.MarqueeControl.html",
+          "hash": "eij8ztbfNm6EmuHICKZ4zA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.QRCodeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.QRCodeControl.html",
+          "hash": "njoSxj4xVHeGQcZzSzaA/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.RichTextControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.RichTextControl.html",
+          "hash": "9phrgSnu+RvdEv2tG8pxPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.ScrollViewerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.ScrollViewerControl.html",
+          "hash": "aFAIxw4kEuc+/eG/IIGIbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.ShapeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.ShapeControl.html",
+          "hash": "nik9G/u0P8pn376FH51abA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.ShoppingCartControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.ShoppingCartControl.html",
+          "hash": "wKdyevEsyFeO8v9kOnyWKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.SlideshowControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.SlideshowControl.html",
+          "hash": "hHUKCu8ItXErnq5pDyTC9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.TextControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.TextControl.html",
+          "hash": "xJj1ypVNr/G+oH7cg61UIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.WebControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.WebControl.html",
+          "hash": "cN4D3aJHHR0n7eBYa3oZEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.Controls.html",
+          "hash": "VDEzV7lcsfQiIhdEkjXEJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.CallbackEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.CallbackEventArgs.html",
+          "hash": "tV8Nmviop9w8HOGbOd9oTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.CallbackEventEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.CallbackEventEventHandler.html",
+          "hash": "8iKGYXuAXeL7fCHaSncirg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Command.html",
+          "hash": "NBw70tzukwm0+qbDr0aFjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.CommandEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.CommandEventArgs.html",
+          "hash": "rK5FOAXaiHPUNw+55+zCGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.CommandEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.CommandEventHandler.html",
+          "hash": "QocvlM+HrKJZ61YG1fAM4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Condition.html",
+          "hash": "jj75Ho1cTd6Hh8H0n5YT7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.DayOfWeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.DayOfWeek.html",
+          "hash": "BEWvrSZ3W2sfJlXr8xdMyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Device.html",
+          "hash": "+4/aQDIVNykR6qyb0xbkZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.DeviceConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.DeviceConfig.html",
+          "hash": "XlJEpJ7/JmnHKD9LZXl9kg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.DisplayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.DisplayCommand.html",
+          "hash": "pbZkYYJrSMZcFFwnM9Lugw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.DisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.DisplayMode.html",
+          "hash": "alnTbfI0dKhtcCRjxyepGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.FaceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.FaceInfo.html",
+          "hash": "jYtpVxoD3Ooqwx7Q8jVDBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.File.html",
+          "hash": "2sML7IO88c19Jqpoohvb8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Gender.html",
+          "hash": "4eSvC1yaDyJPtJWBLXn8Mg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.ModuleOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.ModuleOptions.html",
+          "hash": "d6nS8ngdodXDlpRZvYZllg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.ModuleTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.ModuleTypes.html",
+          "hash": "OgixTRXiZlI0S9Q8aSTa3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.PlaylistTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.PlaylistTypes.html",
+          "hash": "i6QSJswHKz+xPA/4aqIhpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.ScaleTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.ScaleTypes.html",
+          "hash": "rYaFC+wDV0AORaqdjy8tjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.ShapeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.ShapeTypes.html",
+          "hash": "Pd21rkyQH6+eyLYroUhK8A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.SourceTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.SourceTypes.html",
+          "hash": "1E4VRFw7u2g5B9cbSZ2/+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.TransitionTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.TransitionTypes.html",
+          "hash": "jRuJpHtYlfA20Vh8RwJw4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Globals.html",
+          "hash": "laEhMUiuSuYnzcsaU16+pA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.IController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.IController.html",
+          "hash": "y7e7l3M7+Jcyr3u79S81Nw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.IRevelControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.IRevelControl.html",
+          "hash": "MgC5a+kjoCLqvaHW1Y7IKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.ITemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.ITemplate.html",
+          "hash": "Qf7PUAfU1RvmELCDQaTyhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.ImpressionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.ImpressionEventArgs.html",
+          "hash": "LYjR4UWDxav20Xi7vm0rxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.InputDeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.InputDeviceType.html",
+          "hash": "lTG5kjUuLx6lW7TCMWTSKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Location.html",
+          "hash": "PVhJspPSkOA0H+/S4U7eKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Module.html",
+          "hash": "QC0heTLWLGWiwiJ8nEs08Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.NavigationEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.NavigationEventArgs.html",
+          "hash": "ufB+EBQwCuxyu3XqU4XhPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.NavigationEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.NavigationEventHandler.html",
+          "hash": "DscndMeetzPVvzfZqfLjPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Option.html",
+          "hash": "Jj3CuMNkteQS/q2jwchIWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Orientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Orientation.html",
+          "hash": "zf8xMWX7WftLSO2eiAyBKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.PlayedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.PlayedEventArgs.html",
+          "hash": "pd1Q/z+cVU4tGekHerY9Gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.PlayedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.PlayedEventHandler.html",
+          "hash": "sugwCGxLIISPLXfz/dUhTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Playlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Playlist.html",
+          "hash": "B73wXJELE4UcTqP0zi1Pyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RevelDigital.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RevelDigital.html",
+          "hash": "29AakfRWjHZ0VdcAtlkKKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Rpc.html",
+          "hash": "FzGOAeOTmn+irdyTPgyerA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RpcCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RpcCall.html",
+          "hash": "k0ADOtjPP+JZ9IcwdSwkNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RpcEventEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RpcEventEventArgs.html",
+          "hash": "w/JahWosXeS65O0G+a+SDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RpcEventEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RpcEventEventHandler.html",
+          "hash": "ibDr66V4Qsk9NQS02xlYYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RpcResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RpcResponse.html",
+          "hash": "/zVjbT6a+W5Kb6ewD70otQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RpcResponseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RpcResponseEventArgs.html",
+          "hash": "c80OOlf+XxSH3Li+b7QrvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.RpcResponseEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.RpcResponseEventHandler.html",
+          "hash": "a8+V91LiCmNUWSml9gpuCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Schedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Schedule.html",
+          "hash": "bSF6dhvgZGMGMmLPAtlmbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Source.html",
+          "hash": "BGiqppQitG3q6zSh3YZFhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.SourceEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.SourceEventArgs.html",
+          "hash": "dA9UOFLU++DYGq4YDGEOmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.Template.html",
+          "hash": "nUBkzYjIn4d1K26AJQaxMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.TemplateClickedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.TemplateClickedEventArgs.html",
+          "hash": "b87ueXRDDA4fEII3tHzNuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.TemplateClickedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.TemplateClickedEventHandler.html",
+          "hash": "TiqaMnotheRDfUB9De6JcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.TemplateTriggeredEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.TemplateTriggeredEventArgs.html",
+          "hash": "zc9MMdVTL/VDyj8ZyylTKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.VideoFormatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.VideoFormatType.html",
+          "hash": "E6HnU9xpIE/Kij4s9029/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelDigital.Player.RevelScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelDigital.Player.RevelScript.html",
+          "hash": "HP5/347CFtuw6Fja6utr0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Nu5bKrvUfBPDw98Nh/ULiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "w4zt+ePyqe/wrwaFx7ueoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "F/ukhh/blZIwdH4cRofdbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "xVlQaX7Tk85omoiWv3O+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "uFpmxi50O3ysjIxhNLEoWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ob7LqWp4kTNLz+9W4omdTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

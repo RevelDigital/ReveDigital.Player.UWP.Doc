@@ -1,0 +1,1782 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IRevelControl
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IRevelControl
+   ">
+    <meta name="generator" content="docfx 2.30.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="RevelDigital.Player.RevelScript.IRevelControl">
+  
+  
+  <h1 id="RevelDigital_Player_RevelScript_IRevelControl" data-uid="RevelDigital.Player.RevelScript.IRevelControl" class="text-break">Interface IRevelControl
+  </h1>
+  <div class="markdown level0 summary"><p>Interfaces with a running template module or &apos;zone&apos;. Represents the actual WPF control used to
+render to the module content.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RevelDigital.Player.RevelScript.html">RevelDigital.Player.RevelScript</a></h6>
+  <h6><strong>Assembly</strong>: RevelDigital.Player.RevelScript.dll</h6>
+  <h5 id="RevelDigital_Player_RevelScript_IRevelControl_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IRevelControl</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_AutoStart_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.AutoStart*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_AutoStart" data-uid="RevelDigital.Player.RevelScript.IRevelControl.AutoStart">AutoStart</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether [auto start].
+Determines wether or not the module should start playing immediately after the template
+finishes loading.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AutoStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [auto start]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Controller_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Controller*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Controller" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Controller">Controller</h4>
+  <div class="markdown level1 summary"><p>Gets the controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IController Controller { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IController.html">IController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="RevelDigital_Player_RevelScript_IRevelControl_Controller_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="RevelDigital.Player.RevelScript.IController.html">IController</a></div>
+  </div>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_IsLoaded_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.IsLoaded*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_IsLoaded" data-uid="RevelDigital.Player.RevelScript.IRevelControl.IsLoaded">IsLoaded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsLoaded { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_IsPlaying_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.IsPlaying*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_IsPlaying" data-uid="RevelDigital.Player.RevelScript.IRevelControl.IsPlaying">IsPlaying</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is playing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsPlaying { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is playing; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Left_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Left*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Left" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Left">Left</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the left position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double Left { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The left position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ModuleOptions_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ModuleOptions*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ModuleOptions" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ModuleOptions">ModuleOptions</h4>
+  <div class="markdown level1 summary"><p>Gets the module options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IList&lt;Option&gt; ModuleOptions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="RevelDigital.Player.RevelScript.Option.html">Option</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="RevelDigital_Player_RevelScript_IRevelControl_ModuleOptions_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="RevelDigital.Player.RevelScript.Option.html">Option</a></div>
+  </div>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Name_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Name*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Name" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Playlist_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Playlist*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Playlist" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Playlist">Playlist</h4>
+  <div class="markdown level1 summary"><p>Gets the playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Playlist Playlist { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.Playlist.html">Playlist</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="RevelDigital_Player_RevelScript_IRevelControl_Playlist_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html#RevelDigital_Player_RevelScript_IRevelControl_Playlist">Playlist</a></div>
+  </div>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Top_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Top*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Top" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Top">Top</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the top position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double Top { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The top position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Type_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Type*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Type" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Gets the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="RevelDigital_Player_RevelScript_IRevelControl_Type_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="RevelDigital.Player.RevelScript.Globals.ModuleTypes.html">ModuleTypes</a></div>
+  </div>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ZIndex_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ZIndex*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ZIndex" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ZIndex">ZIndex</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the depth position index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ZIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Depth position index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_FadeIn_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeIn*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_FadeIn" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeIn">FadeIn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeIn()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_FadeIn_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeIn*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_FadeIn_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeIn(System.TimeSpan)">FadeIn(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeIn(TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_FadeOut_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeOut*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_FadeOut" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeOut">FadeOut()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeOut()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_FadeOut_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeOut*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_FadeOut_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeOut(System.TimeSpan)">FadeOut(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeOut(TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Reload_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Reload*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Reload" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Reload">Reload()</h4>
+  <div class="markdown level1 summary"><p>Reloads this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Reload()</code></pre>
+  </div>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Resize_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Resize*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Resize_System_Double_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Resize(System.Double,System.Double)">Resize(Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Resize(double widthTo, double heightTo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">widthTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">heightTo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Resize_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Resize*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Resize_System_Double_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Resize(System.Double,System.Double,System.TimeSpan)">Resize(Double, Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Resize(double widthTo, double heightTo, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">widthTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">heightTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight(System.Double)">ResizeHeight(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_System_Double_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight(System.Double,System.Double)">ResizeHeight(Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double from, double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_System_Double_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight(System.Double,System.Double,System.TimeSpan)">ResizeHeight(Double, Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeight_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeight(System.Double,System.TimeSpan)">ResizeHeight(Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth(System.Double)">ResizeWidth(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_System_Double_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth(System.Double,System.Double)">ResizeWidth(Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double from, double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_System_Double_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth(System.Double,System.Double,System.TimeSpan)">ResizeWidth(Double, Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidth_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidth(System.Double,System.TimeSpan)">ResizeWidth(Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Start_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Start*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Start" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Starts this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Start()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Stop_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Stop*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Stop" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stops this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Stop()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Translate_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Translate*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Translate_System_Double_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Translate(System.Double,System.Double)">Translate(Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Translate(double leftTo, double topTo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">leftTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">topTo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_Translate_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Translate*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Translate_System_Double_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Translate(System.Double,System.Double,System.TimeSpan)">Translate(Double, Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Translate(double leftTo, double topTo, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">leftTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">topTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft(System.Double)">TranslateLeft(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_System_Double_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft(System.Double,System.Double)">TranslateLeft(Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double from, double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_System_Double_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft(System.Double,System.Double,System.TimeSpan)">TranslateLeft(Double, Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeft_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeft(System.Double,System.TimeSpan)">TranslateLeft(Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop(System.Double)">TranslateTop(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_System_Double_System_Double_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop(System.Double,System.Double)">TranslateTop(Double, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double from, double to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_System_Double_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop(System.Double,System.Double,System.TimeSpan)">TranslateTop(Double, Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop*"></a>
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTop_System_Double_System_TimeSpan_" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTop(System.Double,System.TimeSpan)">TranslateTop(Double, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double to, TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RevelDigital.Player.RevelScript.IRevelControl.html">IRevelControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_FadeInCompleted" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeInCompleted">FadeInCompleted</h4>
+  <div class="markdown level1 summary"><p>Occurs when the fade in animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler FadeInCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_FadeOutCompleted" data-uid="RevelDigital.Player.RevelScript.IRevelControl.FadeOutCompleted">FadeOutCompleted</h4>
+  <div class="markdown level1 summary"><p>Occurs when the fade out animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler FadeOutCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Played" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Played">Played</h4>
+  <div class="markdown level1 summary"><p>Occurs when a media source is played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;PlayedEventArgs&gt; Played</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="RevelDigital.Player.RevelScript.PlayedEventArgs.html">PlayedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_Recreate" data-uid="RevelDigital.Player.RevelScript.IRevelControl.Recreate">Recreate</h4>
+  <div class="markdown level1 summary"><p>Occurs when the control is recreated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler Recreate</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeHeightCompleted" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeHeightCompleted">ResizeHeightCompleted</h4>
+  <div class="markdown level1 summary"><p>Occurs when the resize height animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler ResizeHeightCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_ResizeWidthCompleted" data-uid="RevelDigital.Player.RevelScript.IRevelControl.ResizeWidthCompleted">ResizeWidthCompleted</h4>
+  <div class="markdown level1 summary"><p>Occurs when the resize width animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler ResizeWidthCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateLeftCompleted" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateLeftCompleted">TranslateLeftCompleted</h4>
+  <div class="markdown level1 summary"><p>Occurs when the translate left animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler TranslateLeftCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RevelDigital_Player_RevelScript_IRevelControl_TranslateTopCompleted" data-uid="RevelDigital.Player.RevelScript.IRevelControl.TranslateTopCompleted">TranslateTopCompleted</h4>
+  <div class="markdown level1 summary"><p>Occurs when the translate top animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler TranslateTopCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2018 RevelDigital<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
